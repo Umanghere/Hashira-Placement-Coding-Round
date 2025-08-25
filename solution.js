@@ -89,7 +89,7 @@ function findSecretBig(filename) {
         // Find secret
         const secret = lagrangeInterpolationBig(selectedPoints);
         
-        console.log(`\n🔑 SECRET (constant c): ${secret}`);
+        console.log(`\n🔑 Constant (c): ${secret}`);
         console.log('='.repeat(50));
         
         return secret;
@@ -116,10 +116,10 @@ const output = `SHAMIR SECRET SHARING RESULTS
 =============================
 
 Test Case 1:
-Secret (constant c): ${secret1}
+Constant (c) (constant c): ${secret1}
 
 Test Case 2: 
-Secret (constant c): ${secret2}
+Constant (c) (constant c): ${secret2}
 
 Note: Used BigInt for precision with large numbers
 Algorithm: Lagrange Interpolation
@@ -130,5 +130,5 @@ fs.writeFileSync('output.txt', output);
 console.log('\n📝 Results saved to output.txt');
 
 console.log('\n✅ FINAL RESULTS:');
-console.log(`Test Case 1 Secret: ${secret1}`);
-console.log(`Test Case 2 Secret: ${secret2}`);
+console.log(`Test Case 1 Constant (c): ${secret1}`);
+console.log(`Test Case 2 Constant (c): ${secret2}`);
