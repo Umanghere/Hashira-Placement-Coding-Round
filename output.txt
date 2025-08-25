@@ -1,0 +1,12 @@
+SHAMIR SECRET SHARING RESULTS
+=============================
+
+Test Case 1:
+Secret (constant c): 3
+
+Test Case 2: 
+Secret (constant c): 79836264049851
+
+Note: Used BigInt for precision with large numbers
+Algorithm: Lagrange Interpolation
+Time: 2025-08-25T07:13:06.008Z
